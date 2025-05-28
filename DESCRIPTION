@@ -1,11 +1,19 @@
 Package: lassamodels
-Title: What the Package Does (One Line, Title Case)
+Title: Lassa Fever Prediction Models
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(
+    person(given = "Rory", family = "Gibb", email = NULL, role = c("aut")),
+    person(given = "Marouf", family = "Shaikh", email = NULL, role = c("aut")),
+    person(given = "Matt", family = "Graham", email = "m.graham@ucl.ac.uk", role = c("aut")),
+    person(given = "Ed", family = "Lowther", email = NULL, role = c("aut")),
+    person(given = "Dimitra", family = "Salmanidou", email = NULL, role = c("aut")),
+    person(given = "Devaraj", family = "Gopinathan", email = "d.gopinathan@ucl.ac.uk", role = c("aut","cre")),
+    person(given = "University College London", family = NULL, email = NULL, role = c("cph")),
+    person(given = "London School of Hygiene & Tropical Medicine", family = NULL, email = NULL, role = c("cph"))
+    )
+Description: Implementation for the predictive Lassa fever models used in the Sentinel Forecasting (Trinity Challenge) project.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
