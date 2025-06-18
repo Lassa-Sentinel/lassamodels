@@ -1,0 +1,32 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# lassamodels
+
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Lassa-Sentinel/lassamodels/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Lassa-Sentinel/lassamodels/actions/workflows/R-CMD-check.yaml)
+
+<!-- badges: end -->
+
+This is an implementation for the predictive Lassa fever models used in
+the Sentinel Forecasting (Trinity Challenge) project.
+
+## Installation
+
+You can install the development version of lassamodels from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("Lassa-Sentinel/lassamodels")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(lassamodels)
+## basic example code
+```
